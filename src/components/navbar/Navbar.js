@@ -23,6 +23,9 @@ export default function Navbar() {
         <Link to={`${PATH}/album`}> Album </Link>
       </p>
       <p>
+        <Link to={`${PATH}/employees`}> employees </Link>
+      </p>
+      <p>
         <Link to={`${PATH}/`} onClick={handleLogout}>
           Logout
         </Link>
